@@ -31,8 +31,8 @@ function handieBtMulti(){
 
 function handieBtDivi(){
 
-    const v1 = parseInt.getElementById("valor1").value
-    const v2 = parseInt.getElementById("valor2").value
+    const v1 = parseInt(document.getElementById("valor1").value)
+    const v2 = parseInt(document.getElementById("valor2").value)
     document.getElementById("resultado").innerHTML = dividir(v1,v2)
 
 }
